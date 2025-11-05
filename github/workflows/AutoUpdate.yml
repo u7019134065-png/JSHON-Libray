@@ -1,0 +1,22 @@
+name: Auto Release
+on:
+  push:
+    tags:
+      - '*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: "Release ${{ github.ref_name }}"
+          body: "Автоматическое обновление мода для Mindustry v146"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
