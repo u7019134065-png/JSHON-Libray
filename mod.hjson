@@ -1,0 +1,8 @@
+name: "jshon-libray"
+displayName: ".JSHON Translator Library"
+author: "ЕЕее1405"
+version: 1.0
+minGameVersion: 146
+description: "Библиотека перевода и упрощённого кода для Mindustry. Позволяет писать моды на русском, украинском, польском и других языках. Конвертирует их в английский язык для движка игры."
+dependencies: []
+hidden: falsee
