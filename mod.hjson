@@ -6,7 +6,7 @@ minGameVersion: 146
 description: "Библиотека перевода и упрощённого кода для Mindustry. Позволяет писать моды на русском, украинском, польском и других языках. Конвертирует их в английский язык для [blue]движка игры."
 repo: "u7019134065-png/JSHON-Libray"
 dependencies: []
-javaScript: fasle
-java:fasle
-hideInBrowser:fasle
+hasScript: fasle
+hasJava:fasle
+hideInBrowser: fasle
 hidden: false
